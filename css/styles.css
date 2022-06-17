@@ -292,7 +292,9 @@ a:hover {
   text-decoration: underline;
 }
 
-.hover-text:hover {
+
+.hover-text:hover,
+.text-primary-2:hover {
   color: #007bff !important;
 }
 
@@ -639,13 +641,20 @@ ey .list-inline {
 .w3-light-grey {
   color: #000 !important;
   background-color: #f1f1f1 !important;
-  width: 600px
+  width: 600px;
+  border-radius: 5px;
 }
 
 .w3-grey {
   color: #000 !important;
   background-color: #677853 !important;
   animation: progress 1500ms ease-in 1;
+  border-radius: 5px;
+  height: 23px
+}
+
+.skill {
+  font-weight: bold;
 }
 
 @keyframes progress {
@@ -10899,7 +10908,7 @@ button.bg-dark:focus {
 }
 
 .text-primary-2 {
-  color: #bd5d38 !important;
+  color: #fa983a !important;
 }
 
 a.text-primary:hover,
