@@ -30,6 +30,15 @@
         }
     });
 
+    $('a.js-scroll-trigger[href="#skills"]').click(function () {
+        var el = document.getElementsByClassName('w3-grey');
+        for (const item of el) {
+            item.style.animation = 'none';
+            item.offsetHeight;
+            item.style.animation = null;
+        }
+    });
+
     // Closes responsive menu when a scroll trigger link is clicked
     $(".js-scroll-trigger").click(function () {
         $(".navbar-collapse").collapse("hide");

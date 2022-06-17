@@ -644,7 +644,14 @@ ey .list-inline {
 
 .w3-grey {
   color: #000 !important;
-  background-color: #677853 !important
+  background-color: #677853 !important;
+  animation: progress 1500ms ease-in 1;
+}
+
+@keyframes progress {
+  from {
+      width: 0;
+  }
 }
 
 .w3-grey:hover {
